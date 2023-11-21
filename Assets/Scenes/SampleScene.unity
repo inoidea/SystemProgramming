@@ -319,6 +319,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2047940327}
   - component: {fileID: 2047940326}
+  - component: {fileID: 2047940328}
+  - component: {fileID: 2047940329}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -333,7 +335,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047940325}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89e6b5dd974d51a47acc888779f3a042, type: 3}
   m_Name: 
@@ -353,6 +355,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2047940328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047940325}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7e13f2a2a28b4a8bc091f3a0417de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cubePrefab: {fileID: 0}
+--- !u!114 &2047940329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047940325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6347fbff5f55bde44a7956767b64f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfEntities: 100
+  startDistance: 20
+  startVelocity: 1
+  startMass: 5
+  gravitationModifier: 0.01
+  celestialBodyPrefab: {fileID: 3188119447470213575, guid: 2725c393664c1ef4f910a90bc3f23889, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
