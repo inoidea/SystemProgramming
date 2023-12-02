@@ -2,6 +2,7 @@
 using Unity.Netcode;
 using System.Collections.Generic;
 
+
 public class ChatManager : NetworkBehaviour
 {
     public static ChatManager Singleton;

@@ -1,5 +1,4 @@
 ﻿using TMPro;
-using Unity.Netcode;
 using UnityEngine;
 
 
@@ -9,6 +8,6 @@ public class ChatMessage : MonoBehaviour
 
     public void SetMessage(string message, string userName)
     {
-        textField.text = $"<color=black>{userName}</color>: {message}";
+        textField.text = $"<color=green>{userName}</color>: {message}";
     }
 }
